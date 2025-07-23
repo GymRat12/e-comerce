@@ -1,0 +1,137 @@
+/* General */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #c9c9c9;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Botón agregar producto */
+a[href*="agregar_producto"] {
+  display: inline-block;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+a[href*="agregar_producto"]:hover {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+/* Filtro */
+form {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form select,
+form button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-weight: bold;
+}
+
+form button {
+  background-color: #00bcd4;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #0097a7;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: #3a3a3a;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #2b2b2b;
+}
+
+tr:hover td {
+  background-color: #3c3c3c;
+}
+
+img {
+  height: 60px;
+  border-radius: 6px;
+}
+
+/* Acciones */
+td a {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+a.editar {
+  background-color: #ffc107;
+  color: #000;
+}
+
+a.editar:hover {
+  background-color: #ffca28;
+}
+
+a.desactivar {
+  background-color: #e53935;
+  color: rgb(255, 96, 96);
+}
+
+a.desactivar:hover {
+  background-color: #d32f2f;
+}
+
+a.reactivar {
+  background-color: #43a047;
+  color: white;
+}
+
+a.reactivar:hover {
+  background-color: #388e3c;
+}

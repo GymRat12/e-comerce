@@ -1,0 +1,75 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  color: #222;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Siempre 4 por fila */
+  gap: 20px;
+  padding: 40px;
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.producto h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #00509d;
+}
+
+.producto p {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.producto a {
+  display: inline-block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background-color: #ff6f00;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-agregar:hover {
+  background-color: #e65100;
+}

@@ -1,0 +1,24 @@
+ecommerce/
+├── public/               ← Archivos públicos del usuario
+│   ├── index.php         ← Página principal (catálogo)
+│   ├── producto.php      ← Página de detalle de producto
+│   ├── login.php         ← Inicio de sesión usuario
+│   ├── registro.php      ← Registro usuario
+│   ├── carrito.php       ← Carrito de compras
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+├── admin/                ← Panel administrativo (acceso restringido)
+│   ├── dashboard.php
+│   ├── productos.php
+│   └── login_admin.php
+│
+├── db/
+│   └── conexion.php      ← Conexión a MySQL
+│
+├── includes/             ← Archivos compartidos (cabecera, pie, etc.)
+│   ├── header.php
+│   └── footer.php
+│
+└── .htaccess             ← Reglas de acceso si usas Apache

@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f9ff;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-formulario {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0d47a1;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input-form {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.input-form:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+.imagen-actual {
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.boton-guardar {
+  background-color: #0077ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.boton-guardar:hover {
+  background-color: #0056b3;
+}
+
+.volver {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.volver a {
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.volver a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    margin: 20px;
+    padding: 20px;
+  }
+}

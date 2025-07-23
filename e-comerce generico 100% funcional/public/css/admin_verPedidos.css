@@ -1,0 +1,135 @@
+/* Fondo general futurista */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #00e5ff;
+  margin-bottom: 30px;
+}
+
+/* Filtro de estado */
+form select,
+form button {
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+form select {
+  background-color: #333;
+  color: #fff;
+}
+
+form button {
+  background-color: #00c853;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #00b248;
+}
+
+/* Tarjeta del pedido */
+.pedido {
+  background: linear-gradient(145deg, #2a2a2a, #1d1d1d);
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+/* Encabezado pedido */
+.pedido h3 {
+  font-size: 18px;
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+/* Select de estado */
+.pedido select {
+  background-color: #111;
+  color: #fff;
+  padding: 6px 10px;
+  border: 1px solid #555;
+  border-radius: 6px;
+}
+
+/* Tabla de productos */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+th {
+  background-color: #263238;
+  color: #00e5ff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* Botones */
+button,
+.pedido button {
+  margin-top: 10px;
+  background-color: #ff6f00;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+.pedido button:hover {
+  background-color: #e65100;
+}
+
+/* Enlaces */
+a {
+  color: #00e5ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Dirección y Teléfono */
+.pedido p {
+  margin: 8px 0;
+  color: #cfd8dc;
+}
+
+/* Estado actual */
+.pedido strong {
+  color: #64ffda;
+}

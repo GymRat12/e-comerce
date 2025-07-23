@@ -1,0 +1,104 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f3f6f9;
+  color: #333;
+  margin: 0;
+  padding: 30px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #0d47a1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+#paypal-button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form button[type="submit"] {
+  margin-top: 10px;
+}
+
+#qrYape {
+  background: #ffffff;
+  border: 2px dashed #00c853;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#qrYape img {
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#total {
+  color: #00c853;
+  font-size: 24px;
+  font-weight: bold;
+}

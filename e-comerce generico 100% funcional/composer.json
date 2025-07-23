@@ -1,0 +1,17 @@
+{
+    "name": "usuario/e-comercegenerico100funcional",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\EComercegenerico100funcional\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GymRat12",
+            "email": "axelfernanoddavalossanchez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1"
+    }
+}
